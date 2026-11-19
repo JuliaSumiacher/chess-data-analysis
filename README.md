@@ -1,21 +1,13 @@
-# ChessDataAnalysis
-El dataset contiene más de 20.000 partidas de Lichess.org. Las variables que contiene son las siguientes:
+# Chess Data Analysis
 
-    Game ID: ID de la partida
-    Rated (T/F): Si el jugador está rankeado o no
-    Start Time: Tiempo de inicio
-    End Time: Tiempo de finalización
-    Number of Turns: Número de movimientos
-    Game Status: Resultado de la partida
-    Winner: Ganador (blancas/negras)
-    Time Increment: Código de incremento
-    White Player ID: ID blancas
-    White Player Rating: Puntaje blancas
-    Black Player ID: ID negras
-    Black Player Rating: Puntaje negras
-    All Moves in Standard Chess Notation: Todos los movimientos en la notación standar de ajedrez
-    Opening Eco: Código estandarizado para cada apertura
-    Opening Name: Nombre de la apertura
-    Opening Ply: Cantidad de movimientos en la fase de apertura
+An exploratory data analysis project containing a Jupyter notebook (`ChessAnalysis.ipynb`) for analyzing and visualizing chess dataset insights.
 
+## Project Structure
 
+- `ChessAnalysis.ipynb` — Jupyter notebook containing data exploration, processing, and analysis workflows.
+- `README.md` — Project documentation.
+
+## Usage
+
+1. Open `ChessAnalysis.ipynb` in Jupyter Notebook, JupyterLab, or Google Colab.
+2. Run the cells sequentially to reproduce the analysis and visualizations.
